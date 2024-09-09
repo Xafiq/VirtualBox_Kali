@@ -1,17 +1,15 @@
-# virtualbox_Debian_install
-
-How to install Virtualbox on Debian
+# How to install Virtualbox on Debian
 ---
 
-1 Download VirtualBox
+## Download VirtualBox
 
-[VirtualBox.org](https://www.virtualbox.org/wiki/Linux_Downloads)
+[Oracle Virtualbox](https://www.oracle.com/es/virtualization/technologies/vm/downloads/virtualbox-downloads.html)
 
-Download Debian-based distributions 
+> Download Debian-based distributions 
 
 ---
 
-2 Update Your System
+## Update Your System
 
 ```bash
 sudo apt-get update -y && sudo apt-get full-upgrade -y && sudo apt autoremove -y
@@ -19,22 +17,15 @@ sudo apt-get update -y && sudo apt-get full-upgrade -y && sudo apt autoremove -y
 
 ---
 
-3 Install VirtualBox
+## Install VirtualBox
 
 ```bash
-sudo apt install virtualbox
+sudo apt install /home/kali/Downloads/virtualbox-7.0_7.0.20-163906~Debian~bookworm_amd64
 ```
 
 ---
 
-
-4 Enable Virtualization in BIOS (If Needed)
-
-If VirtualBox throws "VT-x/AMD-V hardware acceleration is not available," check your BIOS and enable virtualization (Intel VT or AMD-V).
-
----
-
-5 Launch VirtualBox
+## Launch VirtualBox
 
 Finally, launch VirtualBox:
 
