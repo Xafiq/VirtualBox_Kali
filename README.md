@@ -46,11 +46,10 @@ wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key a
 
 4️⃣ Install VirtualBox
 
-Now, install VirtualBox with a simple command:
+Now, update before installing VirtualBox with a simple command:
 
 ```bash
-sudo apt update
-sudo apt install virtualbox-7.0
+sudo apt install virtualbox
 ```
 
 🛑 You may encounter dependency issues like:
