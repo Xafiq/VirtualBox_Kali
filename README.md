@@ -20,7 +20,7 @@ sudo apt-get update -y && sudo apt-get full-upgrade -y && sudo apt autoremove -y
 ## Install VirtualBox
 
 ```bash
-sudo apt install /home/kali/Downloads/virtualbox-7.0_7.0.20-163906~Debian~bookworm_amd64
+sudo apt install /home/kali/Downloads/virtualbox*_amd64
 ```
 
 ---
