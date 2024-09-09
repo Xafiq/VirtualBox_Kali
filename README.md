@@ -1,4 +1,4 @@
-# How to install Virtualbox on Debian
+# How to install Virtualbox on Kali
 ---
 
 ## Download VirtualBox
