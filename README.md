@@ -15,7 +15,6 @@
 sudo apt-get update -y && sudo apt-get full-upgrade -y && sudo apt autoremove -y
 ```
 
-The follow these steps, are some of the possibilities.
 ---
 
 ## Move to Downloads Folder
